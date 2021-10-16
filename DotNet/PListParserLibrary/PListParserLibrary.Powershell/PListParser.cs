@@ -1,10 +1,10 @@
-﻿using System;
+﻿using System.Collections.Generic;
 using System.Management.Automation;
 
-namespace Powershell
+namespace PListParserLibrary.Powershell
 {
     [Cmdlet(VerbsCommon.Get, "PlistFromText")]
-    [OutputType(typeof(PSPrimitiveDictionary))]
+    [OutputType(typeof(Dictionary<string, object>))]
     public class PListParser : PSCmdlet
     {
         [Parameter(Position = 0, ValueFromPipelineByPropertyName = true)]
@@ -20,14 +20,8 @@ namespace Powershell
             {
                 var plistParserLibrary = new PListParserLibrary.Parser();
                 var output = plistParserLibrary.Parse(Input);
-                var pwOutput = new PSPrimitiveDictionary();
-                foreach (var kv in output)
-                {
-                    pwOutput.Add(kv.Key, kv.Value);
-                }
-                WriteObject(pwOutput);
+                WriteObject(output);
             }
-
         }
     }
 }

@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31808.319
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PListParserLibrary", "PListParserLibrary\PListParserLibrary.csproj", "{A85A8DD6-512C-436F-98BA-61009096B7FF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PListParserLibrary", "PListParserLibrary\PListParserLibrary.csproj", "{A85A8DD6-512C-436F-98BA-61009096B7FF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample", "Sample\Sample.csproj", "{4B9A8997-EF5D-43F1-A734-FAF3C792238D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PListParserLibrary.Sample", "PListParserLibrary.Sample\PListParserLibrary.Sample.csproj", "{4B9A8997-EF5D-43F1-A734-FAF3C792238D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Powershell", "Powershell\Powershell.csproj", "{0EF9DDBE-CFC6-42C8-B350-6C1C88F78D04}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PListParserLibrary.Powershell", "PListParserLibrary.Powershell\PListParserLibrary.Powershell.csproj", "{0EF9DDBE-CFC6-42C8-B350-6C1C88F78D04}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

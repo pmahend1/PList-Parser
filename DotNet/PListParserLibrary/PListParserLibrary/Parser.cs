@@ -16,7 +16,6 @@ namespace PListParserLibrary
 
         public Property CurrentProperty { get; set; }
 
-
         public Dictionary<string, object> Parse(string pListText)
         {
             try
