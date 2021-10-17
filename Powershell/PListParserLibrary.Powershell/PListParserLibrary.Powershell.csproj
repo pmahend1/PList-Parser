@@ -9,7 +9,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\PListParserLibrary\PListParserLibrary.csproj" />
+    <ProjectReference Include="..\..\DotNet\PListParserLibrary\PListParserLibrary.csproj" />
   </ItemGroup>
 
 </Project>
