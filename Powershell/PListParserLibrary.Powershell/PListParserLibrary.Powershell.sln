@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31808.319
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PListParserLibrary.Powershell", "PListParserLibrary.Powershell\PListParserLibrary.Powershell.csproj", "{33A8D812-A28E-4AE1-BA3F-2ADEC776ED7C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PListParserLibrary", "..\..\DotNet\PListParserLibrary\PListParserLibrary\PListParserLibrary.csproj", "{B97A55E3-2159-48BC-866E-97D05C2DD982}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{33A8D812-A28E-4AE1-BA3F-2ADEC776ED7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33A8D812-A28E-4AE1-BA3F-2ADEC776ED7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33A8D812-A28E-4AE1-BA3F-2ADEC776ED7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33A8D812-A28E-4AE1-BA3F-2ADEC776ED7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B97A55E3-2159-48BC-866E-97D05C2DD982}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B97A55E3-2159-48BC-866E-97D05C2DD982}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B97A55E3-2159-48BC-866E-97D05C2DD982}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B97A55E3-2159-48BC-866E-97D05C2DD982}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BA6CDECC-59A0-45E8-898A-CDF0D4549CB5}
+	EndGlobalSection
+EndGlobal
