@@ -3,6 +3,22 @@
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
     <BaseOutputPath>bin\</BaseOutputPath>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+    <Description>Parses PList file data into C# dictionary</Description>
+    <PackageProjectUrl>https://github.com/pmahend1/PList-Parser</PackageProjectUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/pmahend1/PList-Parser</RepositoryUrl>
+    <PackageReleaseNotes>Parses PList file data into C# dictionary</PackageReleaseNotes>
+    <PackageLicenseExpression>GPL-3.0-or-later</PackageLicenseExpression>
+    <Version>0.1.0-beta</Version>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\README.md">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>
