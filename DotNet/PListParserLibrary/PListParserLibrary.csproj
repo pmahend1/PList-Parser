@@ -11,7 +11,7 @@
     <RepositoryUrl>https://github.com/pmahend1/PList-Parser</RepositoryUrl>
     <PackageReleaseNotes>Parses PList file data into C# dictionary</PackageReleaseNotes>
     <PackageLicenseExpression>GPL-3.0-or-later</PackageLicenseExpression>
-    <Version>0.1.0-beta</Version>
+    <Version>0.1.0</Version>
   </PropertyGroup>
 
   <ItemGroup>

@@ -8,7 +8,7 @@
     ".NETCoreApp,Version=v5.0": {
       "PListParserLibrary.Powershell/1.0.0": {
         "dependencies": {
-          "PListParserLibrary": "1.0.0",
+          "PListParserLibrary": "0.1.0",
           "System.Management.Automation": "7.1.5"
         },
         "runtime": {
@@ -706,7 +706,7 @@
           }
         }
       },
-      "PListParserLibrary/1.0.0": {
+      "PListParserLibrary/0.1.0": {
         "runtime": {
           "PListParserLibrary.dll": {}
         }
@@ -936,7 +936,7 @@
       "path": "system.windows.extensions/5.0.0",
       "hashPath": "system.windows.extensions.5.0.0.nupkg.sha512"
     },
-    "PListParserLibrary/1.0.0": {
+    "PListParserLibrary/0.1.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
