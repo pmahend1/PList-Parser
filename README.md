@@ -24,7 +24,7 @@ Console.WriteLine(Environment.NewLine + "As Json" + Environment.NewLine + "-----
 
 **Output**
 
-```json
+```log
 UIDeviceFamily=1,2
 MinimumOSVersion=8.0
 
@@ -64,8 +64,6 @@ As Json
 ```
 
 ## 2. Powershell
-
--   Install module `PListParserLibrary.Powershell.PListParser`
 
 ```powershell
 Install-Module -Name PListParserLibrary.Powershell.PListParser
